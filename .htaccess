@@ -1,8 +1,2 @@
 DirectoryIndex index.html
 AddType text/cache-manifest manifest
-
-RewriteEngine On
-
-RewriteRule ^custom-(.*)      custom_view.php?f=$1  [L]
-RewriteRule ^put(.*)          custom_put.php$1      [L]
-RewriteRule ^delete(.*)       custom_delete.php$1   [L]
